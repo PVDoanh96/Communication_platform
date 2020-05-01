@@ -2,7 +2,7 @@ Welcome to the Bulletin wiki!
 
 Check out some cool things:
 
-- [Requirements](Requirement.md)
+- [Requirements](Requirements.md)
 
 - [Architecture](Architecture.md)
 

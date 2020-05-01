@@ -86,7 +86,7 @@ We do not have a dedicated test server. Testing is done on the staging server or
 
 ### Where do you deploy your live site?  Why did you choose this? What are the physical and logical topologies?
 Bulletin is deployed on http://www.bulletinapp.net which is hosted by Heroku. We chose Heroku because of its magnificently easy deployment set up with Django. Heroku's physical topology can be found [here](http://www.heroku.com/how). As for our logical topology:
-[[topology.png]]
+![topology.png](topology.png)
 
 ### Do you have a build process?  Is it nightly?
 We push changes to the staging site after major changes. It is not nightly.

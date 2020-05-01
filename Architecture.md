@@ -2,7 +2,7 @@ Modules
 -------
 
 (System data flow)
-[[system_model.png]]
+![[system_model.png]](system_model.png)
 
 **Email Manager**
 
@@ -66,7 +66,7 @@ provide the following methods (from the dev view):
 	* verify key doesn't already exist
 
 ### Design
-[[ModelViewTemplate.png]]
+![[ModelViewTemplate.png]](ModelViewTemplate.png)
 
 The modules will be designed (apart from the major ones listed above) adherent to the Model, View, Controller pattern (though because of Django, it will now be referred to as the Model, Template, View, pattern, wherein Model is the same, but Template is essentially equal to View, and View is equal to Controller).  The controllers within the view.py section of each module will handle the data that is grabbed from the server before sending the data to the template, which will handle how it is displayed on the screen.
 
@@ -74,12 +74,12 @@ The [database schema](#database_schema) will outline essentially how the classes
 
 Pages with similar layouts (for example, the create group and edit group pages), will be able to inherit from a root template when creating a view for the user.
 
-[[template inheritance.png]]
+![[template inheritance.png]](template_inheritance.png)
 
 <a id="database_schema"></a>Database Schema
 ---------------
 
-[[models_relations.png]]
+![[models_relations.png]](models_relations.png)
 
 The database schema, as outlined by the UML diagram, shows how all of the clases are related as django models.  The arrows showing that a class is contained within another class have a two way meaning.  The class that is within another class (i.e. a Member being within a SeenBy model) has implicit knowledge of the container class.  For example, the Member will have a set containing all of the SeenBy models that reference it.  This is how many of the connections between classes that aren't explicit within the UML diagram are able to be established within the framework we're using (Django).
 
@@ -246,11 +246,11 @@ We will be using [South](http://south.aeracode.org/ "south") to handle database 
 
 ### Topology
 
-[[topology.png]]
+![[topology.png]](topology.png)
 
 ### Technology Stack
 
-[[TechnologyStack.png]]
+![[TechnologyStack.png]](TechnologyStack.png)
 
 
 Process
@@ -279,7 +279,7 @@ Testing will be done concurrently with development and rolled into an evolving t
 Organization 
 ------------
 
-[[OrgChart.png]]
+![[OrgChart.png]](OrgChart.png)
 
 Caylan acts as the product owner and general team lead. He is responsible for assembling and maintaining the requirements, overseeing the individual groups' work, reaching successful releases, and solving any techinical or personal issues that arise within the groups.
 
