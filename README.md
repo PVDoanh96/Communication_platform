@@ -2,12 +2,12 @@ Welcome to the Bulletin wiki!
 
 Check out some cool things:
 
-- [[Requirements]]
+- [Requirements](Requirement.md)
 
-- [[Architecture]]
+- [Architecture](Architecture.md)
 
-- [[Prototype]]
+- [Prototype](Prototype.md)
 
-- [[Schedule]]
+- [Schedule](Schedule.md)
 
-- [[Wrap Up]]
+- [Wrap Up](Wrap-Up.md)
