@@ -295,7 +295,7 @@ A few features are on a wish list for future enhancements
 
 <a id="user_experience"></a>User Experience
 ---------------
-![[UserExp.png]](UserExp.png)
+![[UserExp.png]](img/UserExp.png)
 
 **Login**
 
@@ -323,7 +323,7 @@ A user cannot explicitly join a group.  They have to be invited to a group.  And
 
 ### Email Group Invite UX
 
-![[InviteRegistration.png]](InviteRegistration.png)
+![[InviteRegistration.png]](img/InviteRegistration.png)
 
 When a user receives an email invite, Bulletin will send a link to the
 recipient's email address, allowing them to follow the link and complete their
@@ -346,17 +346,17 @@ User Interface
 Bulletin users will spend time on a few different screens. The look and feel will be consistent throughout and these mockups are only an example of what the interface might look like.
 
 ### Inbox View
-![[inbox view updated.png]](inbox_view_updated.png)
+![[inbox view updated.png]](img/inbox_view_updated.png)
 
 When a user logs in, they are presented with an inbox view. This is the main notification center. The inbox consists of any received private messages, invites to groups, and activity in groups the user is a member of. A user can see, at a glance, activity in any groups or projects they are involved in.
 
 ### Group View
-![[group view.png]](group_view.png)
+![[group view.png]](img/group_view.png)
 
 After a user is invited to a group, it will be accessible on the left, under Inbox. This screen shows the posts to a group. They take on microblog like flow, with newer messages appearing at the top, and comments to posts descending below the post.
 
 ### Group Settings View
-![[group editing view.png]](group_editing_view.png)
+![[group editing view.png]](img/group_editing_view.png)
 
 If a user is a group admin, they may edit the details of the group including the group name, the group members, and the permissions of members. When a new group is created, a similar screen is displayed.
 
